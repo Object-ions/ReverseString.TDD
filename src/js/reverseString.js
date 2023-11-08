@@ -1,3 +1,3 @@
-export const reverseString = () => {
-
+export const reverseString = (str) => {
+  return str
 };
