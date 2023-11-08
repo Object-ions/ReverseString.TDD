@@ -11,5 +11,7 @@ describe('reverse string', () => {
 
   it('should return the reversed string', () => {
     expect(reverseString('hello')).toEqual('olleh');
+    expect(reverseString('bye')).toEqual('eyb');
+    expect(reverseString('hello world')).toEqual('dlrow olleh');
   });
 });
